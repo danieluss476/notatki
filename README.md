@@ -5,7 +5,7 @@
 <img src="https://github.com/szewa5/moje-projekt/blob/gh-pages/images/waz.png?raw=true" alt="Tu podaj tekst alternatywny" />
 
 <b>1. Podstawowe komendy:</b>
-## ddd
+
 ``` 
 a =                       deklaracja zmiennej
 print(a)                  drukowanie w konsoli
