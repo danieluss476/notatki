@@ -1,5 +1,6 @@
 # Python w pigułce
 
+Pythona możemy ściągnąć z tej [strony](https://pl.python.org/)
 
 # Moje notatki z pythona
 <img src="https://github.com/szewa5/moje-projekt/blob/gh-pages/images/waz.png?raw=true" alt="Tu podaj tekst alternatywny" />
