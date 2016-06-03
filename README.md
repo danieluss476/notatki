@@ -6,15 +6,36 @@
 <b>1. Podstawowe komendy</b>
 
 
-a =                       deklaracja zmiennej
-print(a)                  drukowanie w konsoli
-string1 = 'witaj'       deklaracja napisu
-string2 = 'świecie'
-print(string1 + ' ' + string2)       drukowanie napisu
-#                           komentarz
-help(funkcja)          tekst pomocy funkcji
-może być:
-print('tekst') lub print("tekst")
+include <stdio.h>
+#include <math.h>
+
+double Heron (double a);
+                        {
+doble x=1, eps=1e-15;
+    do
+    {
+        x=0.5*(x+(a/x));
+    }
+    while (fabs (x-a/x)>eps*x);
+    return x;
+}
+int main(){
+    duble a;
+    duble x=1;
+    doble z;
+    pritf("Podaj liczbę: ");
+    scanf("%1f", &a);
+        for (z=1e-5; z<=1e15; z=z*10)
+        {
+            printf ("\nHeron(%1f)=%.15lf\n", z, Heron(a));
+            printf ("\nsqrt(%1f)=%.15lf\t", z, sqrt(a));
+            printf ("\n\nblad wzgledny=%.15le", (Heron(a)
+            -sqrt(a)) / sqrt(a));
+            getchar ();
+            getchar ();
+            return 0;
+        }
+}
 /                           dzielenie bez reszty. By dzielić z resztą, jedna ze zmiennych musi być zmiennoprzecinkowa
 %                          reszta z dzielenia
 \                            kontynuacja linii
