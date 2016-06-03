@@ -6,7 +6,7 @@
 <b>1. Podstawowe komendy</b>
 
 
-include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 double Heron (double a);
