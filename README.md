@@ -5,5 +5,5 @@
 <img src="https://github.com/szewa5/moje-projekt/blob/gh-pages/images/waz.png?raw=true" alt="Tu podaj tekst alternatywny" />
 
 '''
-Hej
+<p>Hej</p>
 '''
